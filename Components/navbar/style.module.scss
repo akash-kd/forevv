@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px #bebebe;
+}
+
+.main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.links{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+
+    .blue{
+        color: dodgerblue;
+    }
+}
+
+    
+.link{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    transition: text-decoration-color 300ms;
+    .blue{
+        color: dodgerblue;
+    }
+    svg{
+        padding: 5px;
+    }
+
+    a{
+        display: block;
+        position: relative;
+        padding: 0.2em 0;
+        cursor: pointer;
+    }
+    a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.1em;
+        background-color: dodgerblue;
+        opacity: 0;
+        transition: opacity 300ms, transform 300ms;
+    }
+    a:hover::after,
+    a:focus::after {
+        opacity: 1;
+        transform: translate3d(0, 0.2em, 0);
+    }
+      
+}
