@@ -11,8 +11,8 @@ export default function Home() {
       <div className={styles.sect}>
         <div className={styles.container}>
           <div className={styles.text}>
-            <p className={styles.p1}>{"A Platform to visualise your life's memory lanes"}</p>
-            <p className={styles.p2}>Capture memories in even more inclusive, immersive and innovative style.</p>
+            <p className={styles.p1}>A Platform to visualise your life&apos;s memory lanes</p>
+            <p className={styles.p2}>Capture memories in even more inclusive, immersive & innovative style.</p>
             <div className={styles.b_cont}>
               <button className={styles.button1}>Contact Us!</button>
               <button className={styles.button2}>Sign Up</button>
