@@ -3,7 +3,7 @@ import { GoLinkExternal } from 'react-icons/go'
 function Navbar(){
     return (
         <div className={styles.container}>
-            <div className={styles.main}>Forevv</div>
+            <div className={styles.main}></div>
             <div className={styles.links}>
                 <div className={styles.link}><a>Home</a></div>
                 <div className={styles.link}><a>About us</a></div>
