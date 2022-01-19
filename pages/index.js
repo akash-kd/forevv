@@ -21,7 +21,7 @@ export default function Home() {
               <p className={styles.p_text}>Comming Soon!</p>
               <div>
                 <Image className={styles.app_store} src='/app_store.svg' layout="fixed" height={100} width={100}/>
-                <Image src='/play_store.svg' layout="fixed" height={100} width={100}/>
+                <Image className={styles.play_store}src='/play_store.svg' layout="fixed" height={100} width={100}/>
               </div>
             </div>
           </div>
