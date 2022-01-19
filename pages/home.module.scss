@@ -1,10 +1,86 @@
 .cont{
-    height: calc(100vh - 60px);
-    position: relative;
-    top: 60px;
-    width: 100vw;
+    height: 100%;
+    // position: relative;
+    // top: 60px;
+    width: 100%;
     background-image: url('../res/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+    
+}
+
+.sect{
+    // position: relative;
+    // top: 60px;
+    height: 100%;
+    width: 100%;
+    overflow-y:auto;
+    overflow-x: hidden;
+    justify-content: space-between;
+
+    .container{
+        padding: calc(60px + 40px);
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image{
+        position: relative;
+        top: 0px;
+    }
+    .text{
+        width: 50%;
+        padding: 30px
+    }
+    .p1{
+        font-size: 40px;
+        font-weight: bolder;
+        color: #0B2033;
+    }
+
+    .p2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.b_cont{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+
+}
+.button1,.button2{
+    height: 50px;
+    width: 50%;
+    border-radius: 100px;
+    border: 3px solid dodgerblue;
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.button1{
+    color: dodgerblue;
+    margin-right: 10px;
+    margin-right: 20px;
+}
+.button2{
+    background-color: dodgerblue;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+}
+.c_cont{
+    display: flex;
+    align-items: center;
+    .p_text{
+        color:#0B2033;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    .app_store,.play_store{
+    }
 }
