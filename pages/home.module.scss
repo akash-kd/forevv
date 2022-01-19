@@ -1,0 +1,10 @@
+.cont{
+    height: calc(100vh - 60px);
+    position: relative;
+    top: 60px;
+    width: 100vw;
+    background-image: url('../res/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
